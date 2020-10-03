@@ -9,6 +9,7 @@ namespace BlockEditor
         [SerializeField] private float snapBackDistance = 5;
         [SerializeField] private Vector3 previewScale = Vector3.one * 0.5f;
         [SerializeField] private float scalingSpeed = 4;
+        [SerializeField] private TimeDirectionReference _timeDirection;
 
         private bool _dragging;
         private Vector3 _destinationPosition;
@@ -25,9 +26,15 @@ namespace BlockEditor
         // Update is called once per frame
         void Update()
         {
+            if (_timeDirection.Value == TimeDirection.Forward)
+            {
+                return;
+            }
+
             if (!_dragging && !transform.position.Equals(_destinationPosition))
             {
-                transform.position = Vector3.Lerp(transform.position, _destinationPosition, blockScrollSpeed * Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, _destinationPosition,
+                    blockScrollSpeed * Time.deltaTime);
             }
 
             if (!_dragging && !isPlaced)
@@ -35,7 +42,8 @@ namespace BlockEditor
                 //TODO Lerp to small
                 if (transform.localScale != previewScale)
                 {
-                    transform.localScale = Vector3.Lerp(transform.localScale, previewScale, scalingSpeed * Time.deltaTime);
+                    transform.localScale =
+                        Vector3.Lerp(transform.localScale, previewScale, scalingSpeed * Time.deltaTime);
                 }
             }
             else
@@ -43,7 +51,8 @@ namespace BlockEditor
                 //TODO Lerp to large
                 if (transform.localScale != Vector3.one)
                 {
-                    transform.localScale = Vector3.Lerp(transform.localScale, Vector3.one, scalingSpeed * Time.deltaTime);
+                    transform.localScale =
+                        Vector3.Lerp(transform.localScale, Vector3.one, scalingSpeed * Time.deltaTime);
                 }
             }
         }

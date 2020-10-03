@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        if (_timeDirection.Value == TimeDirection.Backward)
+        if (_timeDirection.Value != TimeDirection.Forward)
         {
             _rigidbody2D.velocity = Vector2.zero;
             return;

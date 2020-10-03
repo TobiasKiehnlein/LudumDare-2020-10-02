@@ -23,7 +23,7 @@ public class BlockMovementSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_timeDirection.Value == TimeDirection.Backward)
+        if (_timeDirection.Value == TimeDirection.Backward || _timeDirection.Value == TimeDirection.Idle)
         {
             _rigidbody2D.velocity = Vector2.zero;
             return;
