@@ -28,6 +28,10 @@
             <e p="FloatReference.cs" t="Include" />
             <e p="IntReference.cs" t="Include" />
             <e p="ScriptableReference.cs" t="Include" />
+            <e p="TimeDirectionReference.cs" t="Include" />
+          </e>
+          <e p="TimeWarp" t="Include">
+            <e p="TimeWarp.cs" t="Include" />
           </e>
           <e p="World" t="Include">
             <e p="TeleportZone.cs" t="Include" />

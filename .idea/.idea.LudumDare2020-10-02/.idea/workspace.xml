@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="" />
+    <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +37,10 @@
     <setting file="file:///Applications/Unity/Hub/Editor/2020.1.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/da/bb6d6f5e/Tuple`3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,6 +56,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/ScriptableReference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
       </list>
     </option>
   </component>
@@ -124,9 +136,9 @@
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
     <state x="934" y="314" width="692" height="783" key="find.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601715728941" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1601702837104">
+    <state width="600" height="440" key="javadoc.popup" timestamp="1601738516672">
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601702837104" />
+    <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601738516672" />
   </component>
 </project>
