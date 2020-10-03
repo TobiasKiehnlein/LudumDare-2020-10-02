@@ -5,7 +5,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="BlockEditor.cs" t="Include" />
+          <e p="Block" t="Include">
+            <e p="BlockMovementSystem.cs" t="Include" />
+            <e p="BlockMovementTemplate.cs" t="Include" />
+            <e p="DirectionalMovement.cs" t="Include" />
+            <e p="ITeleport.cs" t="Include" />
+            <e p="RotationMovement.cs" t="Include" />
+          </e>
+          <e p="BlockEditor" t="Include">
+            <e p="BlockEditor.cs" t="Include" />
+            <e p="SelectableElement.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="PlayerDirectionHandler.cs" t="Include" />
             <e p="PlayerFall.cs" t="Include" />
@@ -19,7 +29,9 @@
             <e p="IntReference.cs" t="Include" />
             <e p="ScriptableReference.cs" t="Include" />
           </e>
-          <e p="SelectableElement.cs" t="Include" />
+          <e p="World" t="Include">
+            <e p="TeleportZone.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
