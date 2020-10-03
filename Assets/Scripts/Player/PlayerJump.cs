@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerJump : MonoBehaviour
 {
@@ -8,7 +7,6 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private BoolReference _isJumping = null;
     [SerializeField] private BoolReference _isGrounded = null;
     [SerializeField] private IntReference _facingDirection = null;
-    [SerializeField] private InputActionAsset _controls = null;
 
     #endregion
 
@@ -34,9 +32,9 @@ public class PlayerJump : MonoBehaviour
         if (_isGrounded.Value)
             ResetJumps();
 
-        if (_isGrounded.Value && _controls.FindAction("Jump").ReadValue<float>() > 0)
+        if (_isGrounded.Value && Input.GetAxis("Jump") > 0)
             Jump();
-        else if (!_isGrounded.Value & _controls.FindAction("Jump").ReadValue<float>() > 0 && _jumpsLeft > 0)
+        else if (!_isGrounded.Value & Input.GetAxis("Jump") > 0 && _jumpsLeft > 0)
             Jump(); //Double Jump: Jump in air if there are jumps left
 
         if (_rigidbody2D.velocity.y > _maxVelocityY)

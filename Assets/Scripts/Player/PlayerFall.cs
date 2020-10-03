@@ -1,12 +1,10 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerFall : MonoBehaviour
 {
     #region References
 
     [SerializeField] private BoolReference _isFalling = null;
-    [SerializeField] private InputActionAsset _controls;
 
     #endregion
 
@@ -30,7 +28,7 @@ public class PlayerFall : MonoBehaviour
 
         if (_isFalling.Value)
             Fall();
-        else if (_rigidbody2D.velocity.y > 0 && _controls.FindAction("Jump").ReadValue<float>() < 1)
+        else if (_rigidbody2D.velocity.y > 0 && Input.GetAxis("Jump") < 1)
             ShortJumpFall();
     }
 
