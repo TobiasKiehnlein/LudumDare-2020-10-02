@@ -262,6 +262,14 @@
                     "expectedControlType": "Quaternion",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "ca0f1b95-8d7f-4a37-8c57-9197bbf65396",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
