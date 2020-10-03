@@ -32,7 +32,7 @@ public class TimeWarp : MonoBehaviour
     void FixedUpdate()
     {
         TimeDirection direction = _timeDirectionReference.Value;
-        
+
         var position = transform.position;
         if (direction == TimeDirection.Forward && cycle % (skiptIterations + 1) == 0)
         {
@@ -51,7 +51,11 @@ public class TimeWarp : MonoBehaviour
                 _rb.bodyType = RigidbodyType2D.Kinematic;
             }
 
-            if (_timeStore.Count == 0) return;
+            if (_timeStore.Count == 0)
+            {
+                _timeDirectionReference.Value = TimeDirection.Idle;
+                return;
+            }
 
             Time time = _timeStore.Pop();
             transform.position = new Vector3(time.posX, time.posY);

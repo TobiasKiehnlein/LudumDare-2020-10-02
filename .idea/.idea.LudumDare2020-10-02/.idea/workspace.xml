@@ -20,10 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Button.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Body Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Body Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Body.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Eye Brow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Eye Brow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Glasses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Glasses.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hai Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hai Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hair.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hand Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hand Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Hand.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Head.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Lab Coat Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Lab Coat Color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Lab Coat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Lab Coat.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Loop_Player.psdZeichenflache_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Loop_Player.psdZeichenflache_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/slice1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/slice1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/slice1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/slice1_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Database/Time Direction Reference.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Database/Time Direction Reference.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

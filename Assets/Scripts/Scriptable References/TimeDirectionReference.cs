@@ -3,7 +3,8 @@ using UnityEngine;
 public enum TimeDirection
 {
     Forward,
-    Backward
+    Backward,
+    Idle
 }
 
 [CreateAssetMenu(menuName = "Game/Scriptable Reference/TimeDirection Reference")]
