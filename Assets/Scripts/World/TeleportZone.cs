@@ -8,17 +8,22 @@ public class TeleportZone : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        var blockMovementSystem = other.GetComponent<BlockMovementSystem>();
+        if (!blockMovementSystem)
+        {
+            return;
+        }
+
         var movement = other.GetComponent<BlockMovementSystem>().SelectedMovement;
         if (!(movement is ITeleport teleport) || !teleport.IsTeleportingWhenOutOfRange)
         {
             return;
         }
 
-        if (_objectVelocityToTeleport.x > 0 && teleport.Direction.x > 0)
-        {
-            Teleport(other.transform);
-        }
-        else if (_objectVelocityToTeleport.y > 0 && teleport.Direction.y > 0)
+        if ((_objectVelocityToTeleport.x > 0 && teleport.Direction.x > 0) ||
+            (_objectVelocityToTeleport.x < 0 && teleport.Direction.x < 0) ||
+            (_objectVelocityToTeleport.y > 0 && teleport.Direction.y > 0) ||
+            (_objectVelocityToTeleport.y < 0 && teleport.Direction.y < 0))
         {
             Teleport(other.transform);
         }

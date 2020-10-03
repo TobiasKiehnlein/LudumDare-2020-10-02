@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 354783018e324776a521874a10cf5655, type: 3}
-  m_Name: Vertical Movement [Medium]
+  m_Name: Vertical Down Movement [Slow]
   m_EditorClassIdentifier: 
   _icon: {fileID: 0}
-  _speed: 5
+  _speed: 2
   _isTeleportingWhenOutOfRange: 1
-  _direction: {x: 1, y: 1}
+  _direction: {x: 0, y: -1}

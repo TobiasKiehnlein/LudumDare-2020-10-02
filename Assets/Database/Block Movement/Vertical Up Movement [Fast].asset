@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3548b4e58742a440b771c49bac22087, type: 3}
-  m_Name: Rotation Movement [Slow]
+  m_Script: {fileID: 11500000, guid: 354783018e324776a521874a10cf5655, type: 3}
+  m_Name: Vertical Up Movement [Fast]
   m_EditorClassIdentifier: 
   _icon: {fileID: 0}
-  _speed: 50
-  isMovingClockwise: 0
+  _speed: 7
+  _isTeleportingWhenOutOfRange: 1
+  _direction: {x: 0, y: 1}
