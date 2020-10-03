@@ -6,6 +6,20 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BlockEditor.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PlayerDirectionHandler.cs" t="Include" />
+            <e p="PlayerFall.cs" t="Include" />
+            <e p="PlayerGroundCheck.cs" t="Include" />
+            <e p="PlayerJump.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+          <e p="Scriptable References" t="Include">
+            <e p="BoolReference.cs" t="Include" />
+            <e p="FloatReference.cs" t="Include" />
+            <e p="IntReference.cs" t="Include" />
+            <e p="ScriptableReference.cs" t="Include" />
+          </e>
+          <e p="SelectableElement.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

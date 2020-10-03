@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,7 +6,6 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private IntReference _facingDirection = null;
     [SerializeField] private FloatReference _moveSpeed = null;
-    [SerializeField] private InputActionAsset _controls = null;
 
     #endregion
 
@@ -26,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _horizontalInput = _controls.FindAction("Move").ReadValue<float>();
+        _horizontalInput = Input.GetAxis("Horizontal");
         Movement();
     }
 
