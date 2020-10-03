@@ -48,7 +48,7 @@ public class TimeWarp : MonoBehaviour
         {
             if (_rb)
             {
-                _rb.bodyType = RigidbodyType2D.Static;
+                _rb.bodyType = RigidbodyType2D.Kinematic;
             }
 
             if (_timeStore.Count == 0) return;

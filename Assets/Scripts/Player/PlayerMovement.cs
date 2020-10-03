@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private IntReference _facingDirection = null;
     [SerializeField] private FloatReference _moveSpeed = null;
+    [SerializeField] private TimeDirectionReference _timeDirection;
 
     #endregion
 
@@ -30,6 +31,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
+        if (_timeDirection.Value == TimeDirection.Backward)
+        {
+            _rigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+
+
         _rigidbody2D.velocity = new Vector2(_horizontalInput * _moveSpeed.Value, _rigidbody2D.velocity.y);
     }
 }

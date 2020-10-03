@@ -6,6 +6,7 @@ using Random = UnityEngine.Random;
 public class BlockMovementSystem : MonoBehaviour
 {
     [SerializeField] private List<BlockMovementTemplate> _blockMovementTemplates = new List<BlockMovementTemplate>();
+    [SerializeField] private TimeDirectionReference _timeDirection;
 
     private BlockMovementTemplate _selectedMovement;
 
@@ -22,6 +23,12 @@ public class BlockMovementSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_timeDirection.Value == TimeDirection.Backward)
+        {
+            _rigidbody2D.velocity = Vector2.zero;
+            return;
+        }
+        
         _selectedMovement.Move(_rigidbody2D);
     }
 }
