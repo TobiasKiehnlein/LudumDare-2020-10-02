@@ -7,7 +7,7 @@ public class RotationMovement : BlockMovementTemplate
 
     public override void Move(Rigidbody2D rb)
     {  
-        var direction = isMovingClockwise ? 1 : -1;
+        var direction = isMovingClockwise ? -1 : 1;
         rb.rotation += (_speed * Time.deltaTime) * direction;
     }
 }

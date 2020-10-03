@@ -3,10 +3,10 @@
 public class PlayerMovement : MonoBehaviour
 {
     #region References
-
-    [SerializeField] private IntReference _facingDirection = null;
+    
     [SerializeField] private FloatReference _moveSpeed = null;
     [SerializeField] private TimeDirectionReference _timeDirection;
+    [SerializeField] private Animator _animator;
 
     #endregion
 
@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D _rigidbody2D = null;
     private float _horizontalInput;
+    
+    private static readonly int PlayerVelocity = Animator.StringToHash("Horizontal Velocity");
 
     #endregion
 
@@ -26,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         _horizontalInput = Input.GetAxis("Horizontal");
+        _animator.SetFloat(PlayerVelocity, _horizontalInput);
         Movement();
     }
 
