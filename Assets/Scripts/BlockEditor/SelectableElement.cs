@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics.Contracts;
+using UnityEngine;
 
 namespace BlockEditor
 {
@@ -52,7 +53,7 @@ namespace BlockEditor
             //         blockScrollSpeed * Time.deltaTime);
             // }
 
-            if (!_dragging && !IsPlaced)
+            if (!_isDraggedOut && !_isPlaced && !_dragging)
             {
                 if (transform.localScale != previewScale)
                 {

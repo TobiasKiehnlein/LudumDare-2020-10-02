@@ -898,8 +898,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17fd26ce58cd45a0a5fd7d846e60dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockPrefabs: []
-  levelId: {fileID: 0}
+  blockPrefabs:
+  - {fileID: 11400000, guid: 366c9d4031ec8114ea5d60d60125f1b0, type: 2}
+  - {fileID: 11400000, guid: fe7112753afc274498d0fa36b438eb13, type: 2}
+  - {fileID: 11400000, guid: 92b1624016ea1d34987e3c105bf8096a, type: 2}
+  levelId: {fileID: 11400000, guid: 285043da3c69bb044a9a9a835f079b0a, type: 2}
   distance: 3
   scrollBlockSize: 3
   blockScrollSpeed: 5
@@ -3385,7 +3388,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -4126965332151236568, guid: 367aa88443b604f62ab6cccccd7d1382, type: 2}
   m_audioClip: {fileID: 8300000, guid: 4ec77527d233340598d4aee8945ffc8a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3481,7 +3484,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -3515737738315431837, guid: 367aa88443b604f62ab6cccccd7d1382, type: 2}
   m_audioClip: {fileID: 8300000, guid: e9bec57b6d8164b29a57b32bc2c4fbc8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0

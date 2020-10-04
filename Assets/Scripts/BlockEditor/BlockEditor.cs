@@ -16,7 +16,7 @@ namespace BlockEditor
         [SerializeField] private Button playButton;
 
         private Vector3 _destinationPosition;
-        private bool _dragging;
+        // private bool _dragging;
         private Vector3 _initialOffset;
         private Vector3 _prevMousePos;
         private List<SelectableElement> _selectableElements;
@@ -34,7 +34,6 @@ namespace BlockEditor
             else
             {
                 _instance = this;
-                DontDestroyOnLoad(gameObject);
             }
         }
         
@@ -75,7 +74,7 @@ namespace BlockEditor
 
         void Update()
         {
-            if (!_dragging && transform.position.Equals(_destinationPosition))
+            if (transform.position.Equals(_destinationPosition))
             {
                 transform.position = Vector3.Lerp(transform.position, _destinationPosition, blockScrollSpeed * Time.deltaTime);
             }

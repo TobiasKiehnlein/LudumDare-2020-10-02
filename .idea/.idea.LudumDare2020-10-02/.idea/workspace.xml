@@ -20,10 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Finale_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Finale_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 1_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 1_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 2_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 2_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 3_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 3_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 4_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 4_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 5_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 5_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 6_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 6_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 7_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 7_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 8_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 8_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 9_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 9_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 1_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 1_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 2_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 2_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 1_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 1_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 2_1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 2_1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +57,11 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioCue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/da/bb6d6f5e/Tuple`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubmitButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/tobiaskiehnlein/dev/Unity/LudumDare2020-10-02/Assets/Scripts/BlockEditor/BlockEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -67,10 +85,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubmitButton.cs" />
       </list>
     </option>
   </component>
@@ -192,9 +211,10 @@
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
     <state x="934" y="314" width="692" height="783" key="find.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601715728941" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1601738516672">
-      <screen x="0" y="23" width="2560" height="1365" />
+    <state width="450" height="324" key="javadoc.popup" timestamp="1601823652705">
+      <screen x="0" y="23" width="1920" height="1005" />
     </state>
+    <state width="450" height="324" key="javadoc.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601823652705" />
     <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601738516672" />
     <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601807656875">
       <screen x="0" y="23" width="1920" height="1005" />
