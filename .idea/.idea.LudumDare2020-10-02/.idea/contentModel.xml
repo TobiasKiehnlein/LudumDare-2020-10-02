@@ -15,6 +15,7 @@
             <e p="DirectionalMovement.cs" t="Include" />
             <e p="ITeleport.cs" t="Include" />
             <e p="RotationMovement.cs" t="Include" />
+            <e p="SlideMovement.cs" t="Include" />
           </e>
           <e p="BlockEditor" t="Include">
             <e p="BlockEditor.cs" t="Include" />

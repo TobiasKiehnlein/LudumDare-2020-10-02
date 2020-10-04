@@ -20,74 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Finale_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Finale_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 1_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 1_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 2_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 2_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 3_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 3_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 4_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 4_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 5_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 5_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 6_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 6_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 7_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 7_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 8_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 8_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 9_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Run 9_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 1_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 1_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 2_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Szene 2_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 1_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 1_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 2_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Dialogs/Tutorial - Szene 2_1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/ChatBubble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/ChatBubble.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/TailExplosion.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/TailExplosion.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Finale_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Finale_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 1_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 1_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 2_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 2_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 3_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 3_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 4_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 4_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 5_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 5_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 6_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 6_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 7_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 7_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 8_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 8_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 9_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Run 9_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Szene 1_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Szene 1_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Szene 2_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Szene 2_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Tutorial - Szene 1_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Tutorial - Szene 1_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Tutorial - Szene 2_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Tutorial - Szene 2_1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Trail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Trail.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Vortex [PS].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Vortex [PS].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +66,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" />
       </list>
     </option>
   </component>
@@ -206,5 +150,9 @@
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601738516672" />
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601799624989">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601799624989" />
   </component>
 </project>

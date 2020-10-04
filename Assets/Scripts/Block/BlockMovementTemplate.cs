@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Packages.Rider.Editor;
+using UnityEngine;
 
 public abstract class BlockMovementTemplate : ScriptableObject
 {
@@ -8,4 +9,5 @@ public abstract class BlockMovementTemplate : ScriptableObject
     public Sprite Icon => _icon;
 
     public abstract void Move(Rigidbody2D rb);
+    public virtual void Initialize(Rigidbody2D rb){}
 }

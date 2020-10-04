@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -21,6 +22,11 @@ public class BlockMovementSystem : MonoBehaviour
         _selectedMovement = _blockMovementTemplates[randomId];
     }
 
+    private void Start()
+    {
+        _selectedMovement.Initialize(_rigidbody2D);
+    }
+
     private void FixedUpdate()
     {
         if (_timeDirection.Value == TimeDirection.Backward || _timeDirection.Value == TimeDirection.Idle)
@@ -28,7 +34,7 @@ public class BlockMovementSystem : MonoBehaviour
             _rigidbody2D.velocity = Vector2.zero;
             return;
         }
-        
+
         _selectedMovement.Move(_rigidbody2D);
     }
 }
