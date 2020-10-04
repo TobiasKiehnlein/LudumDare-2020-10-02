@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levelId: {fileID: 11400000, guid: 285043da3c69bb044a9a9a835f079b0a, type: 2}
-  _isGameOver: {fileID: 11400000, guid: bd590926d6e0c7f4db737eb8843e040f, type: 2}
+  _isGameFinished: {fileID: 11400000, guid: bd590926d6e0c7f4db737eb8843e040f, type: 2}
   _hadPlayerSuccess: {fileID: 11400000, guid: e2c23be96f440f44d97f00722585838d, type: 2}
   _clips:
   - {fileID: 8300000, guid: 037e97cdb85564e9388cb80eb176aa1e, type: 3}

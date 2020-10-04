@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8098d8d6f1f34bf3bd6afc48d8b4d151, type: 3}
-  m_Name: Is Game Over [Bool Reference]
+  m_Name: Is Game Finished [Bool Reference]
   m_EditorClassIdentifier: 
   _value: 0

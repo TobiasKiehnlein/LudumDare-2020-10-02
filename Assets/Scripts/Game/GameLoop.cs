@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameLoop : MonoBehaviour
 {
     [SerializeField] private IntReference _levelId;
-    [SerializeField] private BoolReference _isGameOver;
+    [SerializeField] private BoolReference _isGameFinished;
     [SerializeField] private BoolReference _hadPlayerSuccess;
     [SerializeField] private List<AudioClip> _clips = new List<AudioClip>();
     [SerializeField] private TimeDirectionReference _timeDirection;
@@ -24,7 +24,7 @@ public class GameLoop : MonoBehaviour
         _levelId.Value = 0;
         _clipQueue = new Queue<AudioClip>(_clips);
         _audioSource = GetComponent<AudioSource>();
-        _isGameOver.Value = false;
+        _isGameFinished.Value = false;
 
         PlayNextAudio();
         yield return new WaitForSeconds(7);
@@ -34,7 +34,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Loop()
     {
-        while (!_isGameOver.Value)
+        while (!_isGameFinished.Value)
         {
             yield return BuildMode();
             yield return PlayMode();
@@ -86,19 +86,19 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Reverse()
     {
-        AudioManager.Instance.Direction = TimeDirection.Backward;
-
         if (_hadPlayerSuccess)
         {
             _levelId.Value++;
-            _isGameOver.Value = _clipQueue.Count == 1;
+            _isGameFinished.Value = _clipQueue.Count == 1;
         }
-        
-        if (_isGameOver)
+
+
+        if (_isGameFinished.Value)
         {
             yield break;
         }
-
+        
+        AudioManager.Instance.Direction = TimeDirection.Backward;
         _timeDirection.Value = TimeDirection.Backward;
         while (_timeDirection.Value == TimeDirection.Backward)
         {
