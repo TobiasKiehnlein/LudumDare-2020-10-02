@@ -226,8 +226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeDirection: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
+  _hadPlayerSuccess: {fileID: 11400000, guid: e2c23be96f440f44d97f00722585838d, type: 2}
   _isVictoryZone: 0
-  _hadPlayerSuccess: {fileID: 0}
 --- !u!60 &1917945547825621551
 PolygonCollider2D:
   m_ObjectHideFlags: 0

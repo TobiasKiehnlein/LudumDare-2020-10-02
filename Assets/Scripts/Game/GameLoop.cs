@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
+    [SerializeField] private IntReference _levelId;
     [SerializeField] private BoolReference _isGameOver;
     [SerializeField] private BoolReference _hadPlayerSuccess;
     [SerializeField] private List<AudioClip> _clips = new List<AudioClip>();
     [SerializeField] private TimeDirectionReference _timeDirection;
+
+    [SerializeField] private GameObject[] _buildModeObjects;
+    [SerializeField] private GameObject[] _generalObjects;
 
 
     private AudioSource _audioSource;
@@ -15,6 +19,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Start()
     {
+        _levelId.Value = 0;
         _clipQueue = new Queue<AudioClip>(_clips);
         _audioSource = GetComponent<AudioSource>();
         _isGameOver.Value = false;
@@ -43,12 +48,26 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator BuildMode()
     {
-        // yield break;
-        
+        EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
         while (_timeDirection.Value != TimeDirection.Forward)
         {
             yield return new WaitForEndOfFrame();
+        }
+
+        EnableBuildModeObjects(false);
+    }
+
+    private void EnableBuildModeObjects(bool state)
+    {
+        foreach (var generalObject in _generalObjects)
+        {
+            generalObject.SetActive(!state);
+        }
+        
+        foreach (var buildModeObject in _buildModeObjects)
+        {
+            buildModeObject.SetActive(state);
         }
     }
 
@@ -79,6 +98,7 @@ public class GameLoop : MonoBehaviour
         }
 
         PlayNextAudio();
+        _levelId.Value++;
         _isGameOver.Value = _clipQueue.Count == 0;
     }
 

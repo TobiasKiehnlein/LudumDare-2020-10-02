@@ -14,6 +14,7 @@ public class ReverseZone : MonoBehaviour
             return;
         }
         
+        _hadPlayerSuccess.Value = _isVictoryZone;
         _timeDirection.Value = TimeDirection.Backward;
     }
 }
