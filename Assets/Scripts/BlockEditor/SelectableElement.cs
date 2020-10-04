@@ -46,12 +46,14 @@ namespace BlockEditor
             if (WillDestroy)
             {
                 transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, scalingSpeed * Time.deltaTime);
+                if (transform.localScale.magnitude < 0.05f)
+                {
+                    Destroy(gameObject);
+                }
+
+                return;
             }
 
-            if (transform.localScale.magnitude < 0.05f)
-            {
-                Destroy(gameObject);
-            }
 
             if (_timeDirection.Value == TimeDirection.Forward)
             {

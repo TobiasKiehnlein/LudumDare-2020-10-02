@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +72,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" />
         <option value="$PROJECT_DIR$/Assets/SubmitButton.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
       </list>
     </option>
   </component>

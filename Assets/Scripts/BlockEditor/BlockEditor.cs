@@ -81,6 +81,11 @@ namespace BlockEditor
 
         void Update()
         {
+            if (_selectableElements == null)
+            {
+                return;
+            }
+
             if (transform.position.Equals(_destinationPosition))
             {
                 transform.position = Vector3.Lerp(transform.position, _destinationPosition, blockScrollSpeed * Time.deltaTime);
