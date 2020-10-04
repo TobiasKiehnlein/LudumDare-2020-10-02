@@ -353,15 +353,15 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+    rgba: 4279637526
+  m_fontColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    topRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -776,13 +776,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4279637526
   m_fontColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    topRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -6990,7 +6990,6 @@ GameObject:
   - component: {fileID: 850401747}
   - component: {fileID: 850401746}
   - component: {fileID: 850401745}
-  - component: {fileID: 850401744}
   - component: {fileID: 850401749}
   m_Layer: 5
   m_Name: SubmitCanvas
@@ -6999,18 +6998,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &850401744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850401743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33354a15c42fc4acaa45d10d4fde3968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &850401745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7178,13 +7165,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4279637526
   m_fontColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    topRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -8004,18 +7991,30 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1157435409}
           m_TargetAssemblyTypeName: ChangeTime, Assembly-CSharp
-          m_MethodName: setTimeSpeed
+          m_MethodName: SetTimeSpeed
           m_Mode: 4
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 0.5
+            m_FloatArgument: 0.1
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1157435409}
+          m_TargetAssemblyTypeName: ChangeTime, Assembly-CSharp
+          m_MethodName: SetTimeSpeed
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 1
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1157435409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8930,15 +8929,15 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+    rgba: 4279637526
+  m_fontColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 0, b: 0, a: 1}
-    topRight: {r: 1, g: 0, b: 0, a: 1}
-    bottomLeft: {r: 1, g: 0, b: 0, a: 1}
-    bottomRight: {r: 1, g: 0, b: 0, a: 1}
+    topLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    topRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -9055,6 +9054,8 @@ PlayableDirector:
   - key: {fileID: -2219750371372237829, guid: 037e7ae5c0f424404aedfafd6ffe6c87, type: 2}
     value: {fileID: 1517420621}
   - key: {fileID: -7794066131085526997, guid: 037e7ae5c0f424404aedfafd6ffe6c87, type: 2}
+    value: {fileID: 1157435408}
+  - key: {fileID: 5631561315356579814, guid: 037e7ae5c0f424404aedfafd6ffe6c87, type: 2}
     value: {fileID: 1157435408}
   m_ExposedReferences:
     m_References: []
@@ -9223,13 +9224,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4279637526
   m_fontColor: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 0
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    topRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomLeft: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
+    bottomRight: {r: 0.08627451, g: 0.08627451, b: 0.08627451, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0

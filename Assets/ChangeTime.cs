@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeTime : MonoBehaviour
 {
-    public void setTimeSpeed(float speed)
+    public void SetTimeSpeed(float speed)
     {
         Time.timeScale = speed;
     }
