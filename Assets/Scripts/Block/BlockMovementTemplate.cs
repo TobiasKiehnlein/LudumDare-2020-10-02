@@ -1,5 +1,4 @@
-﻿using Packages.Rider.Editor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class BlockMovementTemplate : ScriptableObject
 {

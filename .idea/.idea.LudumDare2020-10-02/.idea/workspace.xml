@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/da/bb6d6f5e/Tuple`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SubmitButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +69,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/ScriptableReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
@@ -74,6 +77,8 @@
         <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeTime.cs" />
       </list>
     </option>
   </component>
@@ -91,6 +96,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Epoch.app/Contents/MacOS/LudumDare2020-10-02" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Builds/Epoch.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
