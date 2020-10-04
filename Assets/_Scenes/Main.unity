@@ -1804,6 +1804,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 962061671}
     m_Modifications:
+    - target: {fileID: 7492236942901814600, guid: facfc3afd7811415a9e06290b9c6493a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236942901814600, guid: facfc3afd7811415a9e06290b9c6493a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 364254483
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236942901814600, guid: facfc3afd7811415a9e06290b9c6493a, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492236942901814600, guid: facfc3afd7811415a9e06290b9c6493a, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33ccf468c44434af4a443d924c5d3c1a, type: 2}
     - target: {fileID: 7492236942901814601, guid: facfc3afd7811415a9e06290b9c6493a, type: 3}
       propertyPath: m_Name
       value: Vortex [PS]
