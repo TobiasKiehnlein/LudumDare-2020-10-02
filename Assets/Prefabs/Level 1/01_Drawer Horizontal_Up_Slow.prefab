@@ -57,7 +57,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5528792199010094735, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
       propertyPath: m_Name
-      value: 01_Drawer Horizontal_Up
+      value: 01_Drawer Horizontal_Up_Slow
       objectReference: {fileID: 0}
+    - target: {fileID: 6380857001412389455, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 77ad717869ffc4ae2914509ff8f13f36, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}

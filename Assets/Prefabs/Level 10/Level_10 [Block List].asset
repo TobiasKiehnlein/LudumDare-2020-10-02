@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0283cfe5f0ae64081e746543ab7a82, type: 3}
+  m_Name: Level_10 [Block List]
+  m_EditorClassIdentifier: 
+  _blockList:
+  - {fileID: 8068946480797524207, guid: e1fc2ce5cbbc12148b5ab4525a9a97b3, type: 3}
+  - {fileID: 5194385508359905356, guid: a445bb11073571b4699528caef895072, type: 3}
+  - {fileID: 1446779400758939282, guid: 6039a19914833654db8746e8becdf541, type: 3}
+  - {fileID: 3767287898904055022, guid: efa6295b552416a419bb6287cfb14ac9, type: 3}
+  - {fileID: 2111983037108709778, guid: 72daa4fe347520a40bb43fda152a03b0, type: 3}
+  - {fileID: 149560848473271163, guid: 24a936a7faa18e947909311cf61ac38c, type: 3}
+  - {fileID: 8938429328861665563, guid: 202b3057e93911f42a7152d11d5e4da9, type: 3}
+  - {fileID: 5341473194445250052, guid: fee5fe9dd34d98047a714f5302d5cd30, type: 3}

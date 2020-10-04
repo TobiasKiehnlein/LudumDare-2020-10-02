@@ -6833,10 +6833,6 @@ PrefabInstance:
       propertyPath: m_Pitch
       value: 0.8278337
       objectReference: {fileID: 0}
-    - target: {fileID: 8619626761537032609, guid: c59800c69d6ebf04e9da9d5726cd8278, type: 3}
-      propertyPath: _audioSource
-      value: 
-      objectReference: {fileID: 1517038281}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c59800c69d6ebf04e9da9d5726cd8278, type: 3}
 --- !u!1 &925578710
@@ -7443,11 +7439,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1517038281 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 5026486110369042532, guid: c59800c69d6ebf04e9da9d5726cd8278, type: 3}
-  m_PrefabInstance: {fileID: 748744048}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1622122921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8224,7 +8215,7 @@ PlayableDirector:
   - key: {fileID: -7245052126632552084, guid: 2db5e160cc52a404589b1dfe7ea0c97e, type: 2}
     value: {fileID: 1644340795}
   - key: {fileID: 8042973431440020769, guid: 2db5e160cc52a404589b1dfe7ea0c97e, type: 2}
-    value: {fileID: 1643353479}
+    value: {fileID: 1158563365}
   - key: {fileID: 2904744890574023890, guid: 2db5e160cc52a404589b1dfe7ea0c97e, type: 2}
     value: {fileID: 1643353479}
   - key: {fileID: -8491927135448680745, guid: 2db5e160cc52a404589b1dfe7ea0c97e, type: 2}

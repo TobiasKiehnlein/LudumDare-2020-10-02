@@ -59,5 +59,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: 02_Drawer Horizontal_Up_Medium
       objectReference: {fileID: 0}
+    - target: {fileID: 6380857001412389455, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a523ea649920483ea93b7988aef523e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}

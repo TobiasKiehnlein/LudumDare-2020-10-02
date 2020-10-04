@@ -57,7 +57,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5806995542114323404, guid: 4d23e77c7afb93246915ff984a22acdd, type: 3}
       propertyPath: m_Name
-      value: 02_Plant_Fast_Down_Medium
+      value: 02_Plant_Down_Fast
       objectReference: {fileID: 0}
+    - target: {fileID: 7405315229623650104, guid: 4d23e77c7afb93246915ff984a22acdd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aa7a9bb2b2b3642b4b8d0c1dce76db2a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d23e77c7afb93246915ff984a22acdd, type: 3}

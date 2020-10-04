@@ -7,9 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1245199866816484766, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e0668bf0a90bb4f82a7cac2315766c12, type: 3}
+    - target: {fileID: 1245199866816484766, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1245199866816484766, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4298688720860439172, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
       propertyPath: m_Name
-      value: 03_Drawer_Vertical_Rotation_Slow
+      value: 03_Drawer_Vertical_Counter-Rotation_Slow
       objectReference: {fileID: 0}
     - target: {fileID: 4298688720860439192, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
       propertyPath: _selectedMovement

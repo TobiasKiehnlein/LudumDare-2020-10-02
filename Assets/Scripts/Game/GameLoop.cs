@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class GameLoop : MonoBehaviour
@@ -27,7 +28,7 @@ public class GameLoop : MonoBehaviour
         _isGameFinished.Value = false;
 
         PlayNextAudio();
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(5);
         PlayNextAudio();
         yield return Loop();
     }
@@ -39,10 +40,12 @@ public class GameLoop : MonoBehaviour
             yield return BuildMode();
             yield return PlayMode();
             yield return Reverse();
-            PlayNextAudio();
+            if (_hadPlayerSuccess.Value)
+                PlayNextAudio();
         }
 
         yield return new WaitForSeconds(6);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(3);
     }
 
     private IEnumerator BuildMode()
@@ -86,26 +89,25 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Reverse()
     {
-        if (_hadPlayerSuccess)
+        if (_hadPlayerSuccess.Value)
         {
             _levelId.Value++;
-            _isGameFinished.Value = _clipQueue.Count == 1;
-        }
-
-
-        if (_isGameFinished.Value)
-        {
-            yield break;
+            _isGameFinished.Value = _levelId.Value >= 10;
         }
         
-        AudioManager.Instance.Direction = TimeDirection.Backward;
-        _timeDirection.Value = TimeDirection.Backward;
-        while (_timeDirection.Value == TimeDirection.Backward)
+        Debug.Log(_levelId.Value);
+        
+        if (!_isGameFinished.Value)
         {
-            yield return new WaitForEndOfFrame();
-        }
+            AudioManager.Instance.Direction = TimeDirection.Backward;
+            _timeDirection.Value = TimeDirection.Backward;
+            while (_timeDirection.Value == TimeDirection.Backward)
+            {
+                yield return new WaitForEndOfFrame();
+            }
 
-        AudioManager.Instance.Direction = TimeDirection.Forward;
+            AudioManager.Instance.Direction = TimeDirection.Forward;
+        }
     }
 
     private void PlayNextAudio()
