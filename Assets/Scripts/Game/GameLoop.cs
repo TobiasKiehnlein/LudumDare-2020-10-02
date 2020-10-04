@@ -51,7 +51,7 @@ public class GameLoop : MonoBehaviour
 
         EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
-        BlockEditor.BlockEditor.Instance.Start();
+        BlockEditor.BlockEditor.Instance.StartLevel();
         while (_timeDirection.Value != TimeDirection.Forward)
         {
             yield return new WaitForEndOfFrame();

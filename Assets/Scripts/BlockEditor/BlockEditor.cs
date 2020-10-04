@@ -16,6 +16,7 @@ namespace BlockEditor
         [SerializeField] private Button playButton;
 
         private Vector3 _destinationPosition;
+
         // private bool _dragging;
         private Vector3 _initialOffset;
         private Vector3 _prevMousePos;
@@ -36,9 +37,15 @@ namespace BlockEditor
                 _instance = this;
             }
         }
-        
-        public void Start()
+
+        public void StartLevel()
         {
+            if (_selectableElements != null)
+                foreach (var selectableElement in _selectableElements)
+                {
+                    selectableElement.WillDestroy = true;
+                }
+
             _selectableElements = new List<SelectableElement>();
             var localTransform = transform;
             var localPosition = localTransform.position;

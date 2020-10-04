@@ -55,8 +55,6 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         _audioSources = GetComponents<AudioSource>();
-        Debug.Log(_audioSources);
-        Debug.Log(_audioSources);
 
         _ingame = mixer.FindSnapshot("Ingame");
         _editor = mixer.FindSnapshot("Editor");

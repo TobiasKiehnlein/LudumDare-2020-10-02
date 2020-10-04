@@ -24,6 +24,7 @@ namespace BlockEditor
         }
 
         public bool IsDraggedOut => _isDraggedOut;
+        public bool WillDestroy { get; set; }
 
         private bool _dragging;
 
@@ -42,6 +43,16 @@ namespace BlockEditor
 
         void Update()
         {
+            if (WillDestroy)
+            {
+                transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, scalingSpeed * Time.deltaTime);
+            }
+
+            if (transform.localScale.magnitude < 0.05f)
+            {
+                Destroy(gameObject);
+            }
+
             if (_timeDirection.Value == TimeDirection.Forward)
             {
                 return;

@@ -26,6 +26,7 @@
           <e p="Game" t="Include">
             <e p="GameLoop.cs" t="Include" />
             <e p="LevelPanel.cs" t="Include" />
+            <e p="SceneManager.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="PlayerDirectionHandler.cs" t="Include" />
