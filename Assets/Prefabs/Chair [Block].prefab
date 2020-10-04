@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6023599228466578626}
   - component: {fileID: 6023599228466578686}
   - component: {fileID: 7595367664894139612}
+  - component: {fileID: 4309427677664377126}
   m_Layer: 8
   m_Name: Chair [Block]
   m_TagString: Untagged
@@ -175,12 +176,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 242b6590b603b4259be56d50e6c02341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlaced: 0
   blockScrollSpeed: 5
   snapBackDistance: 5
   previewScale: {x: 0.5, y: 0.5, z: 0.5}
   scalingSpeed: 4
   _timeDirection: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
+  _editorHitbox: {fileID: 4309427677664377126}
 --- !u!114 &6023599228466578686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,3 +247,29 @@ PolygonCollider2D:
       - {x: 0.24999106, y: -0.363742}
       - {x: 0.767889, y: -0.115309715}
       - {x: 0.49810457, y: 0.45488274}
+--- !u!61 &4309427677664377126
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6023599228466578628}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4803314, y: 3.931798}
+  m_EdgeRadius: 0

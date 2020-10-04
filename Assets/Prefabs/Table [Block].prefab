@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7028237896032684168}
   - component: {fileID: 7028237896032684212}
   - component: {fileID: 1242271955738257575}
+  - component: {fileID: 8143549631617016586}
   m_Layer: 8
   m_Name: Table [Block]
   m_TagString: Untagged
@@ -93,12 +94,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 242b6590b603b4259be56d50e6c02341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlaced: 0
   blockScrollSpeed: 5
   snapBackDistance: 5
   previewScale: {x: 0.5, y: 0.5, z: 0.5}
   scalingSpeed: 4
   _timeDirection: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
+  _editorHitbox: {fileID: 8143549631617016586}
 --- !u!114 &7028237896032684212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +157,32 @@ PolygonCollider2D:
       - {x: 1.7825007, y: -1.3237921}
       - {x: 1.2642107, y: 0.3865478}
       - {x: 0.5288129, y: 0.40881997}
+--- !u!61 &8143549631617016586
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7028237896032684174}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.0591063, y: 3.0505466}
+  m_EdgeRadius: 0
 --- !u!1 &7028237896763209351
 GameObject:
   m_ObjectHideFlags: 0

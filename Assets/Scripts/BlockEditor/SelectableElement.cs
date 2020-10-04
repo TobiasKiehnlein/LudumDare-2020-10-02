@@ -4,12 +4,23 @@ namespace BlockEditor
 {
     public class SelectableElement : MonoBehaviour
     {
-        public bool isPlaced = false;
+        private bool _isPlaced = false;
         [SerializeField] private float blockScrollSpeed = 5;
         [SerializeField] private float snapBackDistance = 5;
         [SerializeField] private Vector3 previewScale = Vector3.one * 0.5f;
         [SerializeField] private float scalingSpeed = 4;
         [SerializeField] private TimeDirectionReference _timeDirection;
+        [SerializeField] private BoxCollider2D _editorHitbox;
+
+        public bool IsPlaced
+        {
+            get => _isPlaced;
+            set
+            {
+                _isPlaced = value;
+                UpdateHitboxEnabledState();
+            }
+        }
 
         private bool _dragging;
         private Vector3 _destinationPosition;
@@ -18,6 +29,7 @@ namespace BlockEditor
         // Start is called before the first frame update
         void Start()
         {
+            UpdateHitboxEnabledState();
             _initialPosition = transform.position;
             _destinationPosition = transform.position;
             transform.localScale = previewScale;
@@ -37,7 +49,7 @@ namespace BlockEditor
                     blockScrollSpeed * Time.deltaTime);
             }
 
-            if (!_dragging && !isPlaced)
+            if (!_dragging && !IsPlaced)
             {
                 //TODO Lerp to small
                 if (transform.localScale != previewScale)
@@ -69,9 +81,9 @@ namespace BlockEditor
             _dragging = false;
             // if (!((_initalPosition - transform.position).y < snapBackDistance) || isPlaced) return;
 
-            if ((_initialPosition - transform.position).magnitude > snapBackDistance || isPlaced)
+            if ((_initialPosition - transform.position).magnitude > snapBackDistance || IsPlaced)
             {
-                isPlaced = true;
+                IsPlaced = true;
                 return;
             }
 
@@ -89,8 +101,18 @@ namespace BlockEditor
 
         public void ScrollBy(float amount)
         {
-            if (!isPlaced)
+            if (!IsPlaced)
                 _destinationPosition.x += amount;
+        }
+
+        public void UpdateHitboxEnabledState()
+        {
+            if (!_editorHitbox)
+            {
+                return;
+            }
+
+            _editorHitbox.enabled = !_isPlaced;
         }
     }
 }
