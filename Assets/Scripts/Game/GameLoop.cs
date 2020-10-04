@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameLoop : MonoBehaviour
 {
     [SerializeField] private IntReference _levelId;
@@ -38,7 +39,7 @@ public class GameLoop : MonoBehaviour
             yield return BuildMode();
             yield return PlayMode();
             yield return Reverse();
-            CheckForVictory();
+            PlayNextAudio();
         }
 
         yield return new WaitForSeconds(6);
@@ -50,11 +51,11 @@ public class GameLoop : MonoBehaviour
 
         EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
-        yield return new WaitForSeconds(10f);
-        // while (_timeDirection.Value != TimeDirection.Forward)
-        // {
-        //     yield return new WaitForEndOfFrame();
-        // }
+        BlockEditor.BlockEditor.Instance.Start();
+        while (_timeDirection.Value != TimeDirection.Forward)
+        {
+            yield return new WaitForEndOfFrame();
+        }
 
         EnableBuildModeObjects(false);
     }
@@ -90,6 +91,12 @@ public class GameLoop : MonoBehaviour
         if (_hadPlayerSuccess)
         {
             _levelId.Value++;
+            _isGameOver.Value = _clipQueue.Count == 1;
+        }
+        
+        if (_isGameOver)
+        {
+            yield break;
         }
 
         _timeDirection.Value = TimeDirection.Backward;
@@ -99,17 +106,6 @@ public class GameLoop : MonoBehaviour
         }
 
         AudioManager.Instance.Direction = TimeDirection.Forward;
-    }
-
-    private void CheckForVictory()
-    {
-        if (!_hadPlayerSuccess.Value)
-        {
-            return;
-        }
-
-        PlayNextAudio();
-        _isGameOver.Value = _clipQueue.Count == 0;
     }
 
     private void PlayNextAudio()
