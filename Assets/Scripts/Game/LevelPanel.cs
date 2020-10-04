@@ -18,6 +18,7 @@ public class LevelPanel : MonoBehaviour
         for (var i = 0; i < _levelId.Value; i++)
         {
             _images[i].color = _successColor;
+            _images[i].preserveAspect = true;
         }
     }
 }

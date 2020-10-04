@@ -1583,8 +1583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeDirectionReference: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
-  skiptIterations: 1
-  skipBackTimeInMs: 5000
+  _isPlayer: 1
 --- !u!1 &1438253932745680752
 GameObject:
   m_ObjectHideFlags: 0

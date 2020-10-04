@@ -19,6 +19,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Start()
     {
+        _timeDirection.Value = TimeDirection.Idle;
         _levelId.Value = 0;
         _clipQueue = new Queue<AudioClip>(_clips);
         _audioSource = GetComponent<AudioSource>();
@@ -34,11 +35,8 @@ public class GameLoop : MonoBehaviour
     {
         while (!_isGameOver.Value)
         {
-            Debug.Log("Build Mode");
             yield return BuildMode();
-            Debug.Log("Play Mode");
             yield return PlayMode();
-            Debug.Log("Reverse Mode");
             yield return Reverse();
             CheckForVictory();
         }
@@ -50,10 +48,11 @@ public class GameLoop : MonoBehaviour
     {
         EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
-        while (_timeDirection.Value != TimeDirection.Forward)
-        {
-            yield return new WaitForEndOfFrame();
-        }
+        yield return new WaitForSeconds(2f);
+        // while (_timeDirection.Value != TimeDirection.Forward)
+        // {
+        //     yield return new WaitForEndOfFrame();
+        // }
 
         EnableBuildModeObjects(false);
     }
@@ -64,7 +63,7 @@ public class GameLoop : MonoBehaviour
         {
             generalObject.SetActive(!state);
         }
-        
+
         foreach (var buildModeObject in _buildModeObjects)
         {
             buildModeObject.SetActive(state);
@@ -83,6 +82,11 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Reverse()
     {
+        if (_hadPlayerSuccess)
+        {
+            _levelId.Value++;
+        }
+
         _timeDirection.Value = TimeDirection.Backward;
         while (_timeDirection.Value == TimeDirection.Backward)
         {
@@ -98,7 +102,6 @@ public class GameLoop : MonoBehaviour
         }
 
         PlayNextAudio();
-        _levelId.Value++;
         _isGameOver.Value = _clipQueue.Count == 0;
     }
 

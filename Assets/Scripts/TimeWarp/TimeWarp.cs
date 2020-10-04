@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class TimeWarp : MonoBehaviour
@@ -14,6 +12,7 @@ public class TimeWarp : MonoBehaviour
     }
 
     [SerializeField] private TimeDirectionReference _timeDirectionReference;
+    [SerializeField] private bool _isPlayer;
     private int skipIterations = 1;
     private Rigidbody2D _rb;
     private Animator _animator;
@@ -21,6 +20,8 @@ public class TimeWarp : MonoBehaviour
     private RigidbodyType2D _rbType;
     private Stack<Time> _timeStore; // posX, posY, rotZ
     private int cycle;
+
+    private static readonly int PlayerVelocity = Animator.StringToHash("Horizontal Velocity");
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +50,21 @@ public class TimeWarp : MonoBehaviour
                 _rb.bodyType = _rbType;
             }
 
-            _timeStore.Push(new Time { posX = position.x, posY = position.y, rotZ = transform.rotation.z, animState = _animator?.GetFloat("Horizontal Velocity") });
+            if (_isPlayer)
+            {
+                _timeStore.Push(new Time
+                {
+                    posX = position.x, posY = position.y, rotZ = transform.rotation.z,
+                    animState = _animator?.GetFloat(PlayerVelocity)
+                });
+            }
+            else
+            {
+                _timeStore.Push(new Time
+                {
+                    posX = position.x, posY = position.y, rotZ = transform.rotation.z
+                });
+            }
         }
 
         if (direction == TimeDirection.Backward)
@@ -73,9 +88,9 @@ public class TimeWarp : MonoBehaviour
             currentRotation.z = time.rotZ;
             transform.rotation = currentRotation;
 
-            if (_hasAnimator && time.animState != null)
+            if (_hasAnimator && time.animState != null && _isPlayer)
             {
-                _animator.SetFloat("Horizontal Velocity", time.animState.Value);
+                _animator.SetFloat(PlayerVelocity, time.animState.Value);
             }
         }
 
