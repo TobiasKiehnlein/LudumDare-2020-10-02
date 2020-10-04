@@ -20,9 +20,4 @@ public class AudioPlayer : MonoBehaviour
         yield return new WaitForSeconds(_delayInSeconds);
         _audioCue.Play(_audioSource);
     }
-
-    public void PlaySoundAnimation()
-    {
-        Debug.Log("Test");
-    }
 }
