@@ -22,20 +22,23 @@ namespace BlockEditor
             }
         }
 
+        public bool IsDraggedOut => _isDraggedOut;
+
         private bool _dragging;
-        private Vector3 _destinationPosition;
+
+        // private Vector3 _destinationPosition;
         private Vector3 _initialPosition;
+        private bool _isDraggedOut;
 
         // Start is called before the first frame update
         void Start()
         {
             UpdateHitboxEnabledState();
             _initialPosition = transform.position;
-            _destinationPosition = transform.position;
+            // _destinationPosition = _initialPosition;
             transform.localScale = previewScale;
         }
 
-        // Update is called once per frame
         void Update()
         {
             if (_timeDirection.Value == TimeDirection.Forward)
@@ -43,15 +46,14 @@ namespace BlockEditor
                 return;
             }
 
-            if (!_dragging && !transform.position.Equals(_destinationPosition))
-            {
-                transform.position = Vector3.Lerp(transform.position, _destinationPosition,
-                    blockScrollSpeed * Time.deltaTime);
-            }
+            // if (!_dragging && !transform.position.Equals(_destinationPosition))
+            // {
+            //     transform.position = Vector3.Lerp(transform.position, _destinationPosition,
+            //         blockScrollSpeed * Time.deltaTime);
+            // }
 
             if (!_dragging && !IsPlaced)
             {
-                //TODO Lerp to small
                 if (transform.localScale != previewScale)
                 {
                     transform.localScale =
@@ -60,7 +62,6 @@ namespace BlockEditor
             }
             else
             {
-                //TODO Lerp to large
                 if (transform.localScale != Vector3.one)
                 {
                     transform.localScale =
@@ -71,6 +72,7 @@ namespace BlockEditor
 
         private void OnMouseDown()
         {
+            if (IsPlaced) return;
             _dragging = true;
 
             _initialPosition = transform.position;
@@ -78,31 +80,33 @@ namespace BlockEditor
 
         private void OnMouseUp()
         {
+            if (IsPlaced) return;
             _dragging = false;
             // if (!((_initalPosition - transform.position).y < snapBackDistance) || isPlaced) return;
 
-            if ((_initialPosition - transform.position).magnitude > snapBackDistance || IsPlaced)
+            if ((_initialPosition - transform.position).magnitude > snapBackDistance || _isDraggedOut)
             {
-                IsPlaced = true;
+                _isDraggedOut = true;
                 return;
             }
 
-            _destinationPosition = _initialPosition;
+            // _destinationPosition = _initialPosition;
         }
 
         void OnMouseDrag()
         {
+            if (IsPlaced) return;
             Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3);
             Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
             transform.position = objPosition;
-            _destinationPosition = objPosition;
+            // _destinationPosition = objPosition;
         }
 
         public void ScrollBy(float amount)
         {
-            if (!IsPlaced)
-                _destinationPosition.x += amount;
+            // if (!IsPlaced)
+            //     _destinationPosition.x += amount;
         }
 
         public void UpdateHitboxEnabledState()

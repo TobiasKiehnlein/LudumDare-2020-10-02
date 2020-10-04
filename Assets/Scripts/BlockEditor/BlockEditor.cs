@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace BlockEditor
 {
@@ -10,6 +11,7 @@ namespace BlockEditor
         [SerializeField] private float distance = 3;
         [SerializeField] private float scrollBlockSize = 3;
         [SerializeField] private float blockScrollSpeed = 5;
+        [SerializeField] private Button playButton;
 
         private Vector3 _destinationPosition;
         private bool _dragging;
@@ -58,6 +60,8 @@ namespace BlockEditor
             {
                 transform.position = Vector3.Lerp(transform.position, _destinationPosition, blockScrollSpeed * Time.deltaTime);
             }
+
+            if (_selectableElements.All(element => element.IsPlaced)) playButton.interactable = true;
         }
 
         // private void OnMouseDown()

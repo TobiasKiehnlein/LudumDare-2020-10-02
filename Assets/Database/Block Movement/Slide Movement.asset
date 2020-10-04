@@ -15,5 +15,5 @@ MonoBehaviour:
   _icon: {fileID: 0}
   _speed: 5
   _timeBetweenMoves: 2
-  _direction: {x: 5, y: 0}
-  _time: -0.019999612
+  _relativeDestination: {x: 20, y: 0}
+  depth: 5

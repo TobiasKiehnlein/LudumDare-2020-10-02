@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/TailExplosion.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/TailExplosion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/TimelineTimeline.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Chair [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Chair [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Horizontal [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Horizontal [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Vertical [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Vertical [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Happy Sign [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Happy Sign [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Pencil [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Pencil [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Plant [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Plant [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Siccors [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Siccors [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Table [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Table [Block].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +47,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file:///Applications/Unity/Hub/Editor/2020.1.7f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/tobiaskiehnlein/dev/Unity/LudumDare2020-10-02/Assets/Scripts/BlockEditor/BlockEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/tobiaskiehnlein/dev/Unity/LudumDare2020-10-02/Assets/Scripts/BlockEditor/BlockEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/tobiaskiehnlein/dev/Unity/LudumDare2020-10-02/Assets/Scripts/BlockEditor/BlockEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioCue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/da/bb6d6f5e/Tuple`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioCue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C24F0C1-857D-4078-B6D4-53F88E061A29/da/bb6d6f5e/Tuple`3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/tobiaskiehnlein/dev/Unity/LudumDare2020-10-02/Assets/Scripts/BlockEditor/BlockEditor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,16 +71,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerGroundCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/SelectableElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/BlockEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/ScriptableReference.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable References/TimeDirectionReference.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -93,10 +107,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23166">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="23166" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -122,6 +136,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -138,6 +162,38 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1601812749518">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601812749518" />
+    <state width="1878" height="358" key="GridCell.Tab.0.center" timestamp="1601812749517">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.center/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601812749517" />
+    <state width="1878" height="358" key="GridCell.Tab.0.left" timestamp="1601812749517">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.left/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601812749517" />
+    <state width="1878" height="358" key="GridCell.Tab.0.right" timestamp="1601812749518">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.right/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601812749518" />
+    <state width="1750" height="358" key="GridCell.Tab.1.bottom" timestamp="1601807333559">
+      <screen x="1920" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="358" key="GridCell.Tab.1.bottom/0.23.1920.1005/1920.23.1792.1097@1920.23.1792.1097" timestamp="1601807333559" />
+    <state width="1750" height="358" key="GridCell.Tab.1.center" timestamp="1601807333558">
+      <screen x="1920" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="358" key="GridCell.Tab.1.center/0.23.1920.1005/1920.23.1792.1097@1920.23.1792.1097" timestamp="1601807333558" />
+    <state width="1750" height="358" key="GridCell.Tab.1.left" timestamp="1601807333557">
+      <screen x="1920" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="358" key="GridCell.Tab.1.left/0.23.1920.1005/1920.23.1792.1097@1920.23.1792.1097" timestamp="1601807333557" />
+    <state width="1750" height="358" key="GridCell.Tab.1.right" timestamp="1601807333558">
+      <screen x="1920" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="358" key="GridCell.Tab.1.right/0.23.1920.1005/1920.23.1792.1097@1920.23.1792.1097" timestamp="1601807333558" />
     <state x="1019" y="354" key="RiderGenerateDialog" timestamp="1601717236608">
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
@@ -150,9 +206,9 @@
       <screen x="0" y="23" width="2560" height="1365" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601738516672" />
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601799624989">
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601807656875">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601799624989" />
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601807656875" />
   </component>
 </project>

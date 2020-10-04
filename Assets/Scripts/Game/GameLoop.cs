@@ -43,7 +43,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator BuildMode()
     {
-        yield break;
+        // yield break;
         
         _timeDirection.Value = TimeDirection.Idle;
         while (_timeDirection.Value != TimeDirection.Forward)
