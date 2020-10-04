@@ -46,6 +46,8 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator BuildMode()
     {
+        AudioManager.Instance.IsIngame = false;
+
         EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
         yield return new WaitForSeconds(2f);
@@ -72,6 +74,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator PlayMode()
     {
+        AudioManager.Instance.IsIngame = true;
         _hadPlayerSuccess.Value = false;
         _timeDirection.Value = TimeDirection.Forward;
         while (_timeDirection.Value == TimeDirection.Forward)
@@ -82,6 +85,8 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Reverse()
     {
+        AudioManager.Instance.Direction = TimeDirection.Backward;
+
         if (_hadPlayerSuccess)
         {
             _levelId.Value++;
@@ -92,6 +97,8 @@ public class GameLoop : MonoBehaviour
         {
             yield return new WaitForEndOfFrame();
         }
+
+        AudioManager.Instance.Direction = TimeDirection.Forward;
     }
 
     private void CheckForVictory()
