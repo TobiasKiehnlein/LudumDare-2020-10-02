@@ -14,7 +14,7 @@ public class GameLoop : MonoBehaviour
 
     [SerializeField] private GameObject _resetButton;
     [SerializeField] private GameObject _playButton;
-    [SerializeField] private GameObject[] _generalObjects;
+    [SerializeField] private GameObject _buildModeHeader;
     [SerializeField] private Animator _playerAnimator;
 
     private static readonly int PlayerVelocity = Animator.StringToHash("Horizontal Velocity");
@@ -76,11 +76,7 @@ public class GameLoop : MonoBehaviour
 
     private void EnableBuildModeObjects(bool state)
     {
-        foreach (var generalObject in _generalObjects)
-        {
-            generalObject.SetActive(!state);
-        }
-
+        _buildModeHeader.SetActive(state);
         _playButton.SetActive(state);
         _resetButton.SetActive(state);
     }
@@ -103,7 +99,7 @@ public class GameLoop : MonoBehaviour
             _levelId.Value++;
             _isGameFinished.Value = _levelId.Value >= 10;
         }
-        
+
 
         if (!_isGameFinished.Value)
         {
