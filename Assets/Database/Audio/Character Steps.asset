@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a824ab31192cff446a89fa2e5e1c226d, type: 3}
+  m_Name: Character Steps
+  m_EditorClassIdentifier: 
+  _clips:
+  - {fileID: 8300000, guid: d6671a207caf35e4d96c1b264b6d1865, type: 3}
+  _minVolume: 0.5
+  _maxVolume: 0.5
+  _minPitch: 0.8
+  _maxPitch: 1.2
