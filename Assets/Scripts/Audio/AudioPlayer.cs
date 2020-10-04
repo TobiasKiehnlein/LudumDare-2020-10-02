@@ -7,7 +7,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] private AudioCue _audioCue;
     [SerializeField] private float _delayInSeconds;
 
-    private AudioSource _audioSource;
+    [SerializeField] private AudioSource _audioSource;
 
     private void OnEnable()
     {
