@@ -12,8 +12,12 @@ public class GameLoop : MonoBehaviour
     [SerializeField] private List<AudioClip> _clips = new List<AudioClip>();
     [SerializeField] private TimeDirectionReference _timeDirection;
 
-    [SerializeField] private GameObject[] _buildModeObjects;
+    [SerializeField] private GameObject _resetButton;
+    [SerializeField] private GameObject _playButton;
     [SerializeField] private GameObject[] _generalObjects;
+    [SerializeField] private Animator _playerAnimator;
+
+    private static readonly int PlayerVelocity = Animator.StringToHash("Horizontal Velocity");
 
 
     private AudioSource _audioSource;
@@ -44,6 +48,7 @@ public class GameLoop : MonoBehaviour
                 PlayNextAudio();
         }
 
+        _playerAnimator.SetFloat(PlayerVelocity, 0);
         yield return new WaitForSeconds(6);
         UnityEngine.SceneManagement.SceneManager.LoadScene(3);
     }
@@ -53,8 +58,13 @@ public class GameLoop : MonoBehaviour
         AudioManager.Instance.IsIngame = false;
 
         EnableBuildModeObjects(true);
+        _playButton.GetComponent<Button>().interactable = false;
         _timeDirection.Value = TimeDirection.Idle;
-        BlockEditor.BlockEditor.Instance.StartLevel();
+        if (_hadPlayerSuccess.Value)
+        {
+            BlockEditor.BlockEditor.Instance.StartLevel();
+        }
+
         while (_timeDirection.Value != TimeDirection.Forward)
         {
             yield return new WaitForEndOfFrame();
@@ -70,10 +80,8 @@ public class GameLoop : MonoBehaviour
             generalObject.SetActive(!state);
         }
 
-        foreach (var buildModeObject in _buildModeObjects)
-        {
-            buildModeObject.SetActive(state);
-        }
+        _playButton.SetActive(state);
+        _resetButton.SetActive(state);
     }
 
     private IEnumerator PlayMode()
@@ -95,8 +103,7 @@ public class GameLoop : MonoBehaviour
             _isGameFinished.Value = _levelId.Value >= 10;
         }
         
-        Debug.Log(_levelId.Value);
-        
+
         if (!_isGameFinished.Value)
         {
             AudioManager.Instance.Direction = TimeDirection.Backward;

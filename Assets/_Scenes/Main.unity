@@ -280,12 +280,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 55bd713769ccf43d38b2cbf642f4aea0, type: 3}
   - {fileID: 8300000, guid: 22901ed60b0e545e3881ac5c98080e37, type: 3}
   _timeDirection: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
-  _buildModeObjects:
-  - {fileID: 361470853}
-  - {fileID: 508578461}
-  - {fileID: 1890816288}
+  _resetButton: {fileID: 1029306186}
+  _playButton: {fileID: 833181051}
   _generalObjects:
   - {fileID: 1472590368}
+  _playerAnimator: {fileID: 76508092}
+--- !u!95 &76508092 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8081981130207671409, guid: c59800c69d6ebf04e9da9d5726cd8278, type: 3}
+  m_PrefabInstance: {fileID: 641911678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &119798392
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &361470854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1038,7 +1042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &508578462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1338,7 +1342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &833181052
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1812,9 +1816,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
-        m_TargetAssemblyTypeName: TimeDirectionReference, Assembly-CSharp
-        m_MethodName: SetToForward
+      - m_Target: {fileID: 398860040}
+        m_TargetAssemblyTypeName: BlockEditor.BlockEditor, Assembly-CSharp
+        m_MethodName: StartLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
