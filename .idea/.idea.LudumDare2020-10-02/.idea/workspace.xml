@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/EndCutScene.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/EndCutScene.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ChangeTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Title Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Title Menu.unity" afterDir="false" />
-    </list>
+    <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
