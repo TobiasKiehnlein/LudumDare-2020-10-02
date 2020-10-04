@@ -13,7 +13,7 @@ public class TimeWarp : MonoBehaviour
 
     [SerializeField] private TimeDirectionReference _timeDirectionReference;
     [SerializeField] private bool _isPlayer;
-    private int skipIterations = 1;
+    private int skipIterations = 3;
     private Rigidbody2D _rb;
     private Animator _animator;
     private bool _hasAnimator;

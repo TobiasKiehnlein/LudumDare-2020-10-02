@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/EndCutScene.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/EndCutScene.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ChangeTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChangeTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/CutScene01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Title Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Title Menu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/SlideMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" />
         <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" />
@@ -75,6 +78,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Block/BlockMovementTemplate.cs" />
         <option value="$PROJECT_DIR$/Assets/SubmitButton.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeTime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" />
       </list>
     </option>
   </component>
@@ -209,9 +213,9 @@
     </state>
     <state width="450" height="324" key="javadoc.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601823652705" />
     <state width="600" height="440" key="javadoc.popup/0.23.2560.1365/2560.23.1792.1097@0.23.2560.1365" timestamp="1601738516672" />
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601807656875">
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1601840152387">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601807656875" />
+    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005/1920.23.1792.1097@0.23.1920.1005" timestamp="1601840152387" />
   </component>
 </project>
