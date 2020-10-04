@@ -263,6 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8834c23f473b5174597ee09d0e4decd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _levelId: {fileID: 0}
   _isGameOver: {fileID: 11400000, guid: bd590926d6e0c7f4db737eb8843e040f, type: 2}
   _hadPlayerSuccess: {fileID: 11400000, guid: e2c23be96f440f44d97f00722585838d, type: 2}
   _clips:
@@ -279,10 +280,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 55bd713769ccf43d38b2cbf642f4aea0, type: 3}
   - {fileID: 8300000, guid: 22901ed60b0e545e3881ac5c98080e37, type: 3}
   _timeDirection: {fileID: 11400000, guid: c835163417e9f467593e2f16b5fd31c1, type: 2}
-  _buildModeObjects:
-  - {fileID: 361470853}
-  - {fileID: 508578461}
-  - {fileID: 1890816288}
+  _buildModeObjects: []
   _generalObjects: []
 --- !u!1 &119798392
 GameObject:
@@ -2970,7 +2968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 225ebf0d682a514429733615784386a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelNumber: {fileID: 11400000, guid: 285043da3c69bb044a9a9a835f079b0a, type: 2}
+  _levelId: {fileID: 0}
   _successColor: {r: 0.7843138, g: 0, b: 0, a: 1}
 --- !u!1 &1589843067
 GameObject:
@@ -3369,7 +3367,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867535360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3582,6 +3580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 367aa88443b604f62ab6cccccd7d1382, type: 2}
   timeToReach: 0.3
+  pitchChangingSpeed: 1
   shouldBeIngame: 0
   Direction: 0
 --- !u!1 &1874497812

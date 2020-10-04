@@ -9,13 +9,15 @@ public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private float timeToReach;
-    [SerializeField] private bool shouldBeIngame;
+    [SerializeField] private float pitchChangingSpeed = 5;
+    [SerializeField] private bool shouldBeIngame; //TODO REMOVE - JUST FOR TESTING
     public TimeDirection Direction;
     private bool _isIngame;
     private AudioMixerSnapshot _ingame;
     private AudioMixerSnapshot _editor;
 
     private static AudioManager _instance;
+    private AudioSource[] _audioSources;
 
     public static AudioManager Instance => _instance;
 
@@ -39,6 +41,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        transform.parent = null;
         if (_instance != null && _instance != this)
         {
             Destroy(gameObject);
@@ -52,6 +55,10 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
+        _audioSources = GetComponents<AudioSource>();
+        Debug.Log(_audioSources);
+        Debug.Log(_audioSources);
+
         _ingame = mixer.FindSnapshot("Ingame");
         _editor = mixer.FindSnapshot("Editor");
 
@@ -66,6 +73,11 @@ public class AudioManager : MonoBehaviour
         if (shouldBeIngame != IsIngame)
         {
             IsIngame = shouldBeIngame;
+        }
+
+        foreach (var audioSource in _audioSources)
+        {
+            audioSource.pitch = Mathf.Lerp(audioSource.pitch, TimeDirection.Backward == Direction ? -1 : 1, Time.deltaTime * pitchChangingSpeed);
         }
     }
 }

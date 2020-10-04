@@ -20,22 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46647db7-c72b-4142-9f81-3af223b2d2c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SubmitCanvas.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudumDare2020-10-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Chair [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Chair [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Horizontal [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Horizontal [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Vertical [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Drawer Vertical [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Happy Sign [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Happy Sign [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Pencil [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Pencil [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Plant [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Plant [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Siccors [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Siccors [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Table [Block].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Default_Blocks/Table [Block].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/BlockEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BlockEditor/SelectableElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameLoop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeWarp/TimeWarp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AudioManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
