@@ -6,10 +6,8 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BlockMovementSystem : MonoBehaviour
 {
-    [SerializeField] private List<BlockMovementTemplate> _blockMovementTemplates = new List<BlockMovementTemplate>();
     [SerializeField] private TimeDirectionReference _timeDirection;
-
-    private BlockMovementTemplate _selectedMovement;
+    [SerializeField] private BlockMovementTemplate _selectedMovement;
 
     public BlockMovementTemplate SelectedMovement => _selectedMovement;
 
@@ -18,8 +16,6 @@ public class BlockMovementSystem : MonoBehaviour
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        var randomId = Random.Range(0, _blockMovementTemplates.Count);
-        _selectedMovement = _blockMovementTemplates[randomId];
     }
 
     private void Start()

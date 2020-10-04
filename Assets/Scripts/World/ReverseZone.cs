@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 
-public class DeathZone : MonoBehaviour
+public class ReverseZone : MonoBehaviour
 {
     [SerializeField] private TimeDirectionReference _timeDirection;
+    [SerializeField] private bool _isVictoryZone;
+    [SerializeField] private BoolReference _hadPlayerSuccess;
+    
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -10,7 +13,7 @@ public class DeathZone : MonoBehaviour
         {
             return;
         }
-
+        
         _timeDirection.Value = TimeDirection.Backward;
     }
 }

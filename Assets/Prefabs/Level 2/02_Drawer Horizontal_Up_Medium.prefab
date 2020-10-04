@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5123952895606930645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5528792199010094731, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: _selectedMovement
+      value: 
+      objectReference: {fileID: 11400000, guid: 384264f9edc409d41bbc76b2697dbd34, type: 2}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094734, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5528792199010094735, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
+      propertyPath: m_Name
+      value: 02_Drawer Horizontal_Up_Medium
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
