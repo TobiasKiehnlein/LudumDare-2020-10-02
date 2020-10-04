@@ -50,7 +50,7 @@ public class GameLoop : MonoBehaviour
 
         EnableBuildModeObjects(true);
         _timeDirection.Value = TimeDirection.Idle;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(10f);
         // while (_timeDirection.Value != TimeDirection.Forward)
         // {
         //     yield return new WaitForEndOfFrame();

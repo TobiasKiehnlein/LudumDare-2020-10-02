@@ -898,13 +898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17fd26ce58cd45a0a5fd7d846e60dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listElements:
-  - {fileID: 6023599228466578628, guid: 173bde383ae513b4aa5ad27515f63b05, type: 3}
-  - {fileID: 5528792199010094735, guid: f1c9706053184c040aa83c8f0ce90dff, type: 3}
-  - {fileID: 4298688720860439172, guid: 1bb818a6f4a689b4fab916d9af721da2, type: 3}
-  - {fileID: 4799079636326813621, guid: ea15854b1f9128248ac582515cb763b1, type: 3}
-  - {fileID: 5806995542114323404, guid: 4d23e77c7afb93246915ff984a22acdd, type: 3}
-  - {fileID: 7028237896032684174, guid: 008320f5d9cf4ec4db3166f35f5199cc, type: 3}
+  blockPrefabs: []
+  levelId: {fileID: 0}
   distance: 3
   scrollBlockSize: 3
   blockScrollSpeed: 5
@@ -3583,9 +3578,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 367aa88443b604f62ab6cccccd7d1382, type: 2}
-  timeToReach: 0.3
+  timeToReach: 1
   pitchChangingSpeed: 1
-  shouldBeIngame: 0
   Direction: 0
 --- !u!1 &1874497812
 GameObject:

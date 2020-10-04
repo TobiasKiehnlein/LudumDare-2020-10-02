@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,8 @@ namespace BlockEditor
 {
     public class BlockEditor : MonoBehaviour
     {
-        [SerializeField] private GameObject[] listElements;
+        [SerializeField] private BlockPrefabsReference[] blockPrefabs;
+        [SerializeField] private IntReference levelId;
         [SerializeField] private float distance = 3;
         [SerializeField] private float scrollBlockSize = 3;
         [SerializeField] private float blockScrollSpeed = 5;
@@ -19,7 +21,24 @@ namespace BlockEditor
         private Vector3 _prevMousePos;
         private List<SelectableElement> _selectableElements;
 
-        void Start()
+        private static BlockEditor _instance;
+
+        public static BlockEditor Instance => _instance;
+
+        private void Awake()
+        {
+            if (_instance != null && _instance != this)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                _instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+        }
+        
+        public void Start()
         {
             _selectableElements = new List<SelectableElement>();
             var localTransform = transform;
@@ -27,7 +46,7 @@ namespace BlockEditor
             _destinationPosition = localPosition;
             float offset = 0;
 
-            foreach (var listElement in listElements)
+            foreach (var listElement in blockPrefabs[levelId.Value].BlockList)
             {
                 Vector3 position = new Vector3(offset + localPosition.x, localPosition.y, localPosition.z);
                 GameObject go = Instantiate(listElement, position, Quaternion.identity);

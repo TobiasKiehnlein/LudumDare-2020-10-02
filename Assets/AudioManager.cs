@@ -10,7 +10,6 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private float timeToReach;
     [SerializeField] private float pitchChangingSpeed = 5;
-    [SerializeField] private bool shouldBeIngame; //TODO REMOVE - JUST FOR TESTING
     public TimeDirection Direction;
     private bool _isIngame;
     private AudioMixerSnapshot _ingame;
@@ -70,11 +69,6 @@ public class AudioManager : MonoBehaviour
 
     private void Update()
     {
-        if (shouldBeIngame != IsIngame)
-        {
-            IsIngame = shouldBeIngame;
-        }
-
         foreach (var audioSource in _audioSources)
         {
             audioSource.pitch = Mathf.Lerp(audioSource.pitch, TimeDirection.Backward == Direction ? -1 : 1, Time.deltaTime * pitchChangingSpeed);
