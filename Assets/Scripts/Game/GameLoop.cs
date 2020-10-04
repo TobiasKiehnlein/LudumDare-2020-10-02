@@ -25,6 +25,7 @@ public class GameLoop : MonoBehaviour
 
     private IEnumerator Start()
     {
+        _hadPlayerSuccess.Value = true;
         _timeDirection.Value = TimeDirection.Idle;
         _levelId.Value = 0;
         _clipQueue = new Queue<AudioClip>(_clips);
