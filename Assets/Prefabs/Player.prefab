@@ -1422,7 +1422,7 @@ GameObject:
   - component: {fileID: 1438253932744388242}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1756,6 +1756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioCue: {fileID: 11400000, guid: 45d66efac9552a24daffc01dff3cfe04, type: 2}
   _delayInSeconds: 0
+  _audioSource: {fileID: 0}
 --- !u!1 &1438253932846885808
 GameObject:
   m_ObjectHideFlags: 0

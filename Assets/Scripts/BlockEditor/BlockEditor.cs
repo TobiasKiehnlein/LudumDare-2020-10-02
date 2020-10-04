@@ -17,7 +17,6 @@ namespace BlockEditor
         private Vector3 _prevMousePos;
         private List<SelectableElement> _selectableElements;
 
-        // Start is called before the first frame update
         void Start()
         {
             _selectableElements = new List<SelectableElement>();
@@ -53,7 +52,6 @@ namespace BlockEditor
             _selectableElements.ForEach(element => element.ScrollBy(amount));
         }
 
-        // Update is called once per frame
         void Update()
         {
             if (!_dragging && transform.position.Equals(_destinationPosition))

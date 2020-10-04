@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef532f7bdaf244549789b62d12a32a9e, type: 3}
-  m_Name: Time Direction Reference
+  m_Script: {fileID: 11500000, guid: 8098d8d6f1f34bf3bd6afc48d8b4d151, type: 3}
+  m_Name: Is Game Over [Bool Reference]
   m_EditorClassIdentifier: 
-  _value: 2
+  _value: 0

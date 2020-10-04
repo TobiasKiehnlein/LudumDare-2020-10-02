@@ -10,4 +10,8 @@ public enum TimeDirection
 [CreateAssetMenu(menuName = "Game/Scriptable Reference/TimeDirection Reference")]
 public class TimeDirectionReference : ScriptableReference<TimeDirection>
 {
+    public void SetToForward()
+    {
+        Value = TimeDirection.Forward;
+    }
 }
