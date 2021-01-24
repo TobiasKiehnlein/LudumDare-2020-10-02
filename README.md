@@ -21,8 +21,8 @@ Features:
 
 Created by:
 
-Tobias Kiehnlein: Code, Art, Design https://m.facebook.com/inka.mc.atee
+Tobias Kiehnlein: Code, Art, Design: https://github.com/TobiasKiehnlein
 
-Raphael Kölz: Code, Art, Design https://raphael-koelz.de/ https://www.youtube.com/channel/UCTb9nI3Ic95v8pMkslX9Yiw
+Raphael Kölz: Code, Art, Design: https://raphael-koelz.de/ https://www.youtube.com/channel/UCTb9nI3Ic95v8pMkslX9Yiw
 
-Karlheinz Follner: Sound, Music https://www.follner-music.de/
+Karlheinz Follner: Sound, Music: https://www.follner-music.de/
